@@ -126,7 +126,7 @@ function NewScreening() {
                 className="btn btn-primary w-100 py-2"
                 onClick={handleScreening}
               >
-                🔍 Start AI Screening
+                Start AI Screening
               </button>
 
             </div>
