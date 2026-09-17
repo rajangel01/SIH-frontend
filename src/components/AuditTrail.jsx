@@ -76,13 +76,7 @@ function AuditTrail() {
           </p>
         </div>
 
-        <button
-          className="btn btn-dark"
-          onClick={() => alert("Audit report export started")}
-        >
-          <i className="bi bi-download me-2"></i>
-          Export Audit Report
-        </button>
+        
       </div>
 
       {/* Security Information */}
