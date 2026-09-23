@@ -51,11 +51,8 @@ const Support = () => {
     <section className="support-section py-5">
       <div className="container">
 
-        {/* Header */}
         <div className="text-center mb-5">
-          <span className="badge bg-primary px-3 py-2 mb-3">
-            Technical Support
-          </span>
+          
 
           <h2 className="fw-bold">
             Contact Our Developer Team
@@ -67,7 +64,6 @@ const Support = () => {
           </p>
         </div>
 
-        {/* Team Cards */}
         <div className="row g-4">
 
           {teamMembers.map((member, index) => (
@@ -77,7 +73,6 @@ const Support = () => {
 
                 <div className="card-body text-center p-4">
 
-                  {/* Profile Image */}
                   <div className="profile-wrapper mx-auto mb-3">
                     <img
                       src={member.image}
@@ -86,19 +81,16 @@ const Support = () => {
                     />
                   </div>
 
-                  {/* Name */}
                   <h5 className="fw-bold mb-1">
                     {member.name}
                   </h5>
 
-                  {/* Role */}
                   <p className="text-primary fw-semibold mb-3">
                     {member.role}
                   </p>
 
                   <hr />
 
-                  {/* Contact Info */}
                   <div className="text-start small text-muted mb-3">
 
                     <div className="mb-2">
@@ -113,7 +105,6 @@ const Support = () => {
 
                   </div>
 
-                  {/* Contact Button */}
                   <a
                     href={`mailto:${member.email}`}
                     className="btn btn-outline-primary w-100"
