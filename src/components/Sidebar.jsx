@@ -91,6 +91,15 @@ function Sidebar({ isOpen, setIsOpen }) {
             Audit Trail
           </NavLink>
 
+          <NavLink
+            to="/support"
+            className="nav-link text-white"
+            onClick={closeSidebar}
+          >
+            <i className="bi bi-shield-check me-2"></i>
+            Developer Team
+          </NavLink>
+
         </div>
 
         {/* Bottom Section */}

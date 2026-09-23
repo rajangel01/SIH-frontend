@@ -8,6 +8,7 @@ import Analytics from "./components/Analytics";
 import AuditTrail from "./components/AuditTrail";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
+import Support from "./components/Support"
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -59,6 +60,11 @@ function App() {
               <Route
                 path="/audit-trail"
                 element={<AuditTrail />}
+              />
+
+              <Route
+                path="/support"
+                element={<Support />}
               />
 
               {/* Unknown URL */}
