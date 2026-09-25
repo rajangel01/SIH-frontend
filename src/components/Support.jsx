@@ -42,7 +42,7 @@ const teamMembers = [
     role: "Project Testing",
     email: "mohitmankas.cs.2025@bhu.ac.in",
     phone: "+91 8168243170",
-    image: "https://res.cloudinary.com/drpeeigze/image/upload/v1785667042/samples/zoom.avif",
+    image: "https://res.cloudinary.com/drpeeigze/image/upload/v1790335239/mohit_q3oau9.jpg",
   },
 ];
 
